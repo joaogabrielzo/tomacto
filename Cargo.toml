@@ -1,0 +1,18 @@
+[package]
+name = "tomacto"
+version = "0.1.0"
+edition = "2021"
+authors = ["João Gabriel Zó <jgzolanes@gmail.com>"]
+license = "MIT"
+description = "A pomodoro tool for mac users productivity."
+readme = "README.md"
+homepage = "https://github.com/joaogabrielzo/tomacto"
+repository = "https://github.com/joaogabrielzo/tomacto"
+keywords = ["cli", "pomodoro", "productivity", "mac"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mac-notification-sys = "0.5"
+clap = { version = "3.0", features = ["derive"] }
